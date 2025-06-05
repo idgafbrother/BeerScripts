@@ -1,2 +1,1 @@
---// by tranquiLo \\--
-Discord Contact: @estranquilo
+--// by @estranquilo \\--

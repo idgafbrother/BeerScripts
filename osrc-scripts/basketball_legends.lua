@@ -1,5 +1,5 @@
 local Tabs = {
-  Match = Window:Tab({ Title = "Match", Icon = "ball" }),
+  Match = Window:Tab({ Title = "Match", Icon = "volleyball" }),
   Player = Window:Tab({ Title = "Player", Icon = "user" }),
 }
 Window:SelectTab(1)

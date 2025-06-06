@@ -206,10 +206,11 @@ Tabs.Player:Toggle({
 Tabs.Player:Slider({
     Title = "WalkSpeed",
     Desc = "Adjust Player Speed",
-    Min = 1,
-    Max = 5,
-    Value = 1,
-    Float = 1,
+    Value = {
+        Min = 1,
+        Max = 5,
+        Default = 1,
+    },
     Callback = function(Value)
         speed = Value / 100
     end,
